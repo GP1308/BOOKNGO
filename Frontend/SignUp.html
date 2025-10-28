@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #4C3BCF;
+        }
+
+        #forms{
+            margin: 150px;
+            height: 400px;
+           padding: 50px;
+            background-color: #4B70F5;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            border-radius: 25px;
+            color: white;
+            border: 2px solid pink;
+        }
+        #form-elements{
+            border: 2px solid black;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            border-radius: 10px;
+            
+            
+        }
+        .innerdiv{
+            border: 2px solid green;
+            margin: 5px;
+        }
+
+        .outerdiv{
+            border: 2px solid yellow;
+            padding-top: 20px;
+        }
+        .heading{
+            border: 2px solid blueviolet;
+            padding-top: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="forms">
+        <form action="">
+            <div class="heading"> 
+                <h2 >SignUp</h2>
+            </div>
+            
+             
+             <div class="outerdiv">
+                <div class="innerdiv">
+            <label for="">Email </label>
+            <input type="text" id="form-elements">
+           </div>
+
+           <div class="innerdiv">
+            <label for="">Mobile Number</label>
+            <input type="text" id="form-elements">
+           </div>
+
+           <div class="innerdiv">
+            <label for="">Password </label>
+            <input type="text" id="form-elements">
+           </div>
+
+            <div class="innerdiv">
+            <label for="">Confirm Password </label>
+            <input type="text" id="form-elements">
+           </div>
+             </div>
+
+           
+
+        </form>
+    </div>
+</body>
+</html>
